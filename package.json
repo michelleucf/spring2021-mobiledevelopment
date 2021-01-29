@@ -18,5 +18,6 @@
   "homepage": "https://github.com/michelleucf/spring2021-mobiledevelopment#readme",
   "dependencies": {
     "chalk": "^4.1.0"
-  }
+  },
+  "devDependencies": {}
 }
