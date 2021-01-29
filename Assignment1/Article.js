@@ -18,8 +18,8 @@ class Article extends Component {
     <Article>
         <Title>${this.props.title}</Title>
         <Author>${this.props.author}</Author>
-        <Text>${this.props.content}</Text>
-    </Article>;
+        <Text>${this.props.text}</Text>
+    </Article>
       `
     /* Renders the title and inculdes the .author and .content */
     );
