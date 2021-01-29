@@ -21,12 +21,9 @@ class Article extends Component {
         <Text>${this.props.content}</Text>
     </Article>;
       `
-
-      /* Renders the title and inculdes the .author and .content */
+    /* Renders the title and inculdes the .author and .content */
     );
-    
   }
-
 }
 
 export default Article;
