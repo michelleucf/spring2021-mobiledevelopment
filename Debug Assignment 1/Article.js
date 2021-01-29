@@ -13,14 +13,22 @@ class Article extends Component {
   render () {
     // Return HTML with the title, author, and text of this article
 
-    return (`
+    return (
+      `
+      <Article>
+        <title>${this.props.title}</title>
+       </Article>;
+       `
+       
+      /*`
       <Article>
         <h1>this.props.title</h1>
         ${this.props.title.render()} 
         <span>${this.props.author}</span>
         <div>${this.props.content}</div>
       </Article>;
-      `
+      `*/
+
       /* Renders the title and inculdes the .author and .content */
     );
     

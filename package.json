@@ -1,0 +1,22 @@
+{
+  "name": "spring2021-mobiledevelopment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michelleucf/spring2021-mobiledevelopment.git"
+  },
+  "author": "Michelle O'Reilly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michelleucf/spring2021-mobiledevelopment/issues"
+  },
+  "homepage": "https://github.com/michelleucf/spring2021-mobiledevelopment#readme",
+  "dependencies": {
+    "chalk": "^4.1.0"
+  }
+}
