@@ -1,4 +1,4 @@
-import Example from './components/example/index';
+import Example from './components/example/index.js';
 
 function App() {
   return (
