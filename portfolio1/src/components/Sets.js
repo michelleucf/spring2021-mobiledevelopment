@@ -6,7 +6,7 @@ function Sets (){
 
     return(
         <div>
-            <h2>Total Sets: {miles}</h2>
+            <h2>Total Sets: {sets}</h2>
             <button onClick ={() => setSets(sets +1)}>Add A Set</button>
             <button onClick ={() => setSets(0)}>Reset</button>
         </div>

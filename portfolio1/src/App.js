@@ -7,11 +7,13 @@ const chalk = require('chalk');
 const log = console.log;
 
 
+//var hour = Hours.hours;
+
 log(chalk.black.bgYellow.underline('Exercise Tracker'));
 // print exercise tracker into the console log
 function App(){
   return(
-    <div>a
+    <div>
       <h1>Exercise Tracker</h1>
       <Repetitions/> 
       <Sets/>
