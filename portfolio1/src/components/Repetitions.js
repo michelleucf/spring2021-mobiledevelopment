@@ -11,12 +11,16 @@ class Repetitions extends Component{
     render(){
 
         return(
+            <body>
             <div>
-                <h2>Total Repetitions: {this.state.reps}</h2>
-                <button onClick={() => this.setState({reps: this.state.reps + 1})}>Add A Rep</button>
-                <button onClick={() => this.setState({reps: 0})}>Reset</button>
+               <h2>Total Repetitions: {this.state.reps}</h2>
+                <button class="button" onClick={() => this.setState({reps: this.state.reps + 1})}>Add A Rep</button>
+                <button class="button" onClick={() => this.setState({reps: 0})}>Reset</button>
             </div>
+            </body>
         );
+        //two buttons : Add 1 and Reset
+        // tracks total reps
     }
 }
 

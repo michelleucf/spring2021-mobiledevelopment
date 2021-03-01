@@ -7,9 +7,12 @@ function Miles (){
     return(
         <div>
             <h2>Total Miles: {miles}</h2>
-            <button onClick ={() => setMiles(miles +1)}>Add A Mile</button>
-            <button onClick ={() => setMiles(0)}>Reset</button>
+            <button class="button" onClick ={() => setMiles(miles +1)}>Add A Mile</button>
+            <button class="button" onClick ={() => setMiles(miles +.5)}>Add Half A Mile</button>
+            <button class="button" onClick ={() => setMiles(0)}>Reset</button>
         </div>
+        // Three buttons : Add 1. add 1/2. and Reset
+        // Tracks Miles
     );
 }
 
