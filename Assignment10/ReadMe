@@ -1,1 +1,11 @@
-Had to manually attempt to upload because Github Desktop was not allowing any local changes to be committed and pushed. 
+Got it to work
+
+Here are my steps 
+
+Step 1: I made sure I was in the root directory for the class. so my <C:Users\Michelle\Documents\GitHub\spring2021-mobile-development>
+
+Step 2 : I had to check the status of the entire directory and not just my Assignment10 by typing <git status> in my <\spring2021-mobile-development> repo.
+
+Step 3: It told me I had my Assignment10 as an untracked file so I had to <get add> .
+
+Step 4 : It then told me that my origin/main had diverged and I had to <get pull>

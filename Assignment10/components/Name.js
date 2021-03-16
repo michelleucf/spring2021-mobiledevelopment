@@ -7,7 +7,7 @@ export default class Name extends Component {
             <View>
                 <Text>Michelle OReilly</Text>
             </View>
-            //name file  
+            //name file    
         );
     }
 }
