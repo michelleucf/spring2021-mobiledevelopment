@@ -11,7 +11,7 @@ export default function App() {
       <Food/>  
     </View>
  
-    // name component and food component in seperate files under components.   
+    // name component and food component in seperate files under components.    
   );
 }
 

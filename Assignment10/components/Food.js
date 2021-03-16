@@ -7,7 +7,7 @@ import React, {Component} from 'react';
                 <View>
                     <Text>Tiramisu</Text>
                 </View>
-                // favorite food file.  
+                // favorite food file.   
             );
         }
     }
